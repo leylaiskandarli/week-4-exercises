@@ -12,6 +12,8 @@ class Measure
 namespace measures
 {
     using length = Measure<double, 1, 0, 0>;
+    using area = Measure<double, 2, 0, 0>;
+    using volume = Measure<double, 3, 0, 0>;
     using time = Measure<double, 0, 1, 0>;
     using mass = Measure<double, 0, 0, 1>;
     using speed = Measure<double, 1, -1, 0>;
